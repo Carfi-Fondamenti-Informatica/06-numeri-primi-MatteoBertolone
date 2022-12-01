@@ -1,10 +1,14 @@
 #include <iostream>
+#include "lib.h"
+using namespace std;
 int main(){
-    int n=0,i=2;
-    cin>>n;
-    if (numprimo(i, n)==true) {
-        cout << "numero primo" << endl;
-    }else{
-        cout <<"numero non primo"<< endl;}
-  return 0;
+    int a = 0, i = 2;
+    cin >> a;
+    if(numprimo(a, i) == true){
+        cout << "numero primo";
+    }
+    else{
+        cout << "numero non primo";
+    }
+    return 0;
 }
