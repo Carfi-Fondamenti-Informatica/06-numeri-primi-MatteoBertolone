@@ -1,9 +1,8 @@
 #include <iostream>
-
 int main(){
-    int n=0,i=2;
+    int n=0;
     cin>>n;
-    if (numprimo(i, n)) {
+    if (numprimo(2, n)==true) {
         cout << "numero primo" << endl;
     }else{
         cout <<"numero non primo"<< endl;}
